@@ -1,7 +1,16 @@
 <?php
+// $users = [
+//     "user" => "user",
+//     "admin" => "admin",
+// ];
+
 $users = [
-    "user" => "user",
-    "admin" => "admin",
+    'admin' => ['pass' => 'admin123', 'role' => 'admin'],
+    'userArtur' => ['pass' => 'user333', 'role' => 'user'],
+    'artem555' => ['login', 'pass' => 'qwerty44', 'role' => 'user'],
+    'alex' => ['pass' => 'admin2233', 'role' => 'admin'],
+    'vanya' => ['pass' => 'qwerty455', 'role' => 'user'],
+    'rodger' => ['pass' => 'qwerty311', 'role' => 'admin'],
 ];
 
 $countries = [
